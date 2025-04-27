@@ -64,7 +64,7 @@ object BetterFloors: Feature("Basically my FunnyMapExtras's config port. Places 
 
     init {
         WebUtils.fetchJsonWithRetry<Map<String, List<Map<String, Double>>>>(
-            "https://raw.githubusercontent.com/Noamm9/NoammAddons/refs/heads/data/betterFloors/F7BossCoords.json"
+            "https://pastebin.com/raw/UfcvRhP7"
         ) { f7Config = it }
 
         WebUtils.fetchJsonWithRetry<Map<String, List<Map<String, Double>>>>(
